@@ -1,0 +1,8 @@
+def azureml_main(frame1):
+## Quantize the wind into categories using cut with explicit columns.
+  import pandas as pd
+  bins = [0, 10000, 20000, 30000, 40000,50000,60000,70000,80000,90000,100000,110000,130000,140000,150000,160000,170000,180000,190000,200000,210000,220000,230000,240000,250000,260000,270000,280000,290000,300000] 
+  frame1['base_sal'] = pd.cut(frame1['Base Annualized Salary'], bins)
+  #frame1['base_compe'] = pd.cut(frame1['Total Earnings'],bins)
+  return frame1
+ 
