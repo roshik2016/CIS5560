@@ -32,6 +32,9 @@ These are the configuration options for the cluster, <br>
 
 First, import the dataset manually using the tables table in the left pane to upload the data, upon uploading the data give the table a name and select the apporpriate datatype for the data.
 
+<img alt="California State University, Los Angeles" src="https://github.com/roshik2016/CIS5560/blob/master/TableImport.PNG" style="width: 600px;"/>
+
+
 - Numeric Values - Integer
 - Decimal Values - Float
 - Values Greater than 65000 - BigInt 
