@@ -317,5 +317,5 @@ evaluator = RegressionEvaluator(labelCol="trueLabel", predictionCol="prediction"
 rmse = evaluator.evaluate(predictions)
 print "Root Mean Square Error (RMSE) for GBT Regression :", rmse
 ```
-Root Mean Square Error (RMSE) for Decession Tree Model: 7089.95288139.
+Root Mean Square Error (RMSE) for GBT Model: 7089.95288139.
 The RMSE Value depicts how much variation would a perdiction from this model would make. This value tends to vary upto $50 over or below.
