@@ -230,7 +230,7 @@ display(dataPred)
 
 ### RMSE Analysis
 
-Beased on the RMSE (Root Mean Squared Error) this Model can be evaluated.
+Beased on the RMSE (Root Mean Squared Error) this Model can be evaluated. 
 
 
 ```python
@@ -238,6 +238,8 @@ evaluator = RegressionEvaluator(labelCol="trueLabel", predictionCol="prediction"
 rmse = evaluator.evaluate(predictions)
 print "Root Mean Square Error (RMSE) for Decession Tree Model:", rmse
 ```
+Root Mean Square Error (RMSE) for Decession Tree Model: 8560.80145784
+The RMSE Value depicts how much variation would a perdiction from this model would make. This value tends to vary upto $50 over or below.
 
 ### Algorithm 2 - GBT Regressor (Gradient Booster Tree Regression)
 
@@ -311,3 +313,5 @@ evaluator = RegressionEvaluator(labelCol="trueLabel", predictionCol="prediction"
 rmse = evaluator.evaluate(predictions)
 print "Root Mean Square Error (RMSE) for GBT Regression :", rmse
 ```
+Root Mean Square Error (RMSE) for Decession Tree Model: 8470.95862582
+The RMSE Value depicts how much variation would a perdiction from this model would make. This value tends to vary upto $50 over or below.
