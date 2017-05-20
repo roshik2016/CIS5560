@@ -3,9 +3,6 @@
 </a>
 <img align="right" alt="California State University, Los Angeles" src="http://www.calstatela.edu/sites/default/files/groups/California%20State%20University%2C%20Los%20Angeles/master_logo_full_color_horizontal_centered.svg" style="width: 360px;"/>
 
-<img alt="California State University, Los Angeles" src="https://github.com/roshik2016/CIS5560/blob/master/Clusterspec.PNG" style="width: 360px;"/>
-
-
 
 ------
 <h1 align="center"> CIS5560 Term Project Tutorial </h1>
@@ -21,6 +18,15 @@
 ### Objectives
 
 The aim of this Tutorial is to predict the Income of an employee based on the available features form the dataset by utilizing Machine Learning Algorithms and build accurate models using SparkML
+
+### Cluster creation and specification 
+
+<img alt="California State University, Los Angeles" src="https://github.com/roshik2016/CIS5560/blob/master/Clusterspec.PNG" style="width: 600px;"/>
+
+These are the configuration options for the cluster, <br>
+**Spark Version :** Spark 2.1 (Auto-updating, Scala 2.10) <br>
+**Memory –** 6GB Memory , 0.88 Cores, 1 DBU <br>
+**File System –** DBFS (Data Bricks File System)
 
 ### Prepare the Data
 
