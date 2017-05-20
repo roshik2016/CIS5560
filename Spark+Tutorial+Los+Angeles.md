@@ -21,6 +21,8 @@ The aim of this Tutorial is to predict the Income of an employee based on the av
 
 ### Cluster creation and specification 
 
+Click on the cluster tab on the left pane and specify a name for the cluster and click on Create Cluster.
+
 <img alt="California State University, Los Angeles" src="https://github.com/roshik2016/CIS5560/blob/master/Clusterspec.PNG" style="width: 600px;"/>
 
 These are the configuration options for the cluster, <br>
@@ -41,6 +43,8 @@ First, import the dataset manually using the tables table in the left pane to up
 - Charater Values - String
 
 On setting the appropriate datatype click on create table.
+
+### Import Libraries 
 
  First, Import the libraries you will need and prepare the training and test data.
 
