@@ -3,6 +3,10 @@
 </a>
 <img align="right" alt="California State University, Los Angeles" src="http://www.calstatela.edu/sites/default/files/groups/California%20State%20University%2C%20Los%20Angeles/master_logo_full_color_horizontal_centered.svg" style="width: 360px;"/>
 
+<img alt="California State University, Los Angeles" src="https://github.com/roshik2016/CIS5560/blob/master/Clusterspec.PNG" style="width: 360px;"/>
+
+
+
 ------
 <h1 align="center"> CIS5560 Term Project Tutorial </h1>
 <h1 align="center"> Predictive Analysis on Income </h1>
