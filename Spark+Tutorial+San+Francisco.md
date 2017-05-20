@@ -19,14 +19,31 @@
 
 The aim of this Tutorial is to predict the Income of an employee based on the available features form the dataset by utilizing Machine Learning Algorithms and build accurate models using SparkML
 
+### Cluster creation and specification 
+
+Click on the cluster tab on the left pane and specify a name for the cluster and click on Create Cluster.
+
+<img alt="California State University, Los Angeles" src="https://github.com/roshik2016/CIS5560/blob/master/Clusterspec.PNG" style="width: 600px;"/>
+
+These are the configuration options for the cluster, <br>
+**Spark Version :** Spark 2.1 (Auto-updating, Scala 2.10) <br>
+**Memory –** 6GB Memory , 0.88 Cores, 1 DBU <br>
+**File System –** DBFS (Data Bricks File System)
+
 ### Prepare the Data
 
 First, import the dataset manually using the tables table in the left pane to upload the data, upon uploading the data give the table a name and select the apporpriate datatype for the data.
+
+<img alt="California State University, Los Angeles" src="https://github.com/roshik2016/CIS5560/blob/master/TableImport.PNG" style="width: 600px;"/>
 
 - Numeric Values - Integer
 - Decimal Values - Float
 - Values Greater than 65000 - BigInt 
 - Charater Values - String
+
+On setting the appropriate datatype click on create table.
+
+### Import Libraries 
 
 First, import the libraries you will need and prepare the training and test data:
 
